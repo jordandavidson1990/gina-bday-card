@@ -6,11 +6,7 @@ const Birthday = () => {
   const [item, setItem] = useState("🎁");
   const [confetti, setConfetti] = useState(false);
   const [hint, setHint] = useState("(don't forget to open your present!)");
-  // state = {
-  //   item: "",
-  //   confetti: false,
-  //   hint: "(don't forget to open your present!)",
-  // };
+
   const openPresent = () => {
     let presents = [
       "😺",
